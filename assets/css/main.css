@@ -2465,3 +2465,89 @@ input, select, textarea {
     height: auto;
     display: block;
 }
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+/* Contact Section Styling */
+.contact-box {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-box h2 {
+    font-size: 36px;
+    color: #0B3D91;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.contact-email a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF9933;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    background-color: #FF9933;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .contact-box h2 {
+        font-size: 28px;
+    }
+
+    .contact-box p {
+        font-size: 18px;
+    }
+
+    .contact-email a {
+        font-size: 20px;
+    }
+
+    .contact-button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-box h2 {
+        font-size: 24px;
+    }
+
+    .contact-box p {
+        font-size: 16px;
+    }
+
+    .contact-email a {
+        font-size: 18px;
+    }
+
+    .contact-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
